@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         borderRadius:20,
         justifyContent : "center",
         textAlign : "center",
-        alignSelf : "center",
+        alignSelf : "center", //Scan button allign
     },
     Darkmode :{
         backgroundColor: "#231f26",
