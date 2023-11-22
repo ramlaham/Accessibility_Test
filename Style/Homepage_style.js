@@ -23,21 +23,21 @@ const styles = StyleSheet.create({
         color: "#FFFFFF",
         textAlign: "center",
         fontFamily: 'pBold',
-        fontSize: 25,
+        fontSize: 35, //Scan button text size
         justifyContent : "center",
         alignItems : "center",
     },
-    Pressable: {
+    Pressable: { //Scan button
         backgroundColor: "#7AA8AE",
         height: 50,
         top: 750,
         zIndex : 0,
-        width: 300,
-        left: "15%",
+        width: 380,
         position : "absolute",
         borderRadius:20,
         justifyContent : "center",
         textAlign : "center",
+        alignSelf : "center",
     },
     Darkmode :{
         backgroundColor: "#231f26",

@@ -4,24 +4,23 @@ const ScanStyle = StyleSheet.create({
     Scanning : {
         justifyContent:"center",
         alignItems: "center",
-        marginTop : 50
+        marginTop : 30
     },
     ScanText : {
         fontFamily : "pBold",
-        fontSize: 25,
+        fontSize: 40, //"Scan The Test" text on Scan Page
         color: '#7AA8AE'
     },
     CamArea : {
-        flex : 1,
         margin : "auto",
-        width: 350,
-        left: '7%',
-        height: 10,
+        width: 390,
+        alignSelf : "center",
         borderRadius : 10,
         margin: 'auto',
-        marginTop : 80,
+        marginTop : 25,
         justifyContent: "center",
-        alignItems: "center",
+        alignSelf: "center",
+        height : "80%", //Bottom margin for camera area
     },
     cam_icon :{
         width :50,
@@ -29,7 +28,9 @@ const ScanStyle = StyleSheet.create({
     },
     Darkmode :{
         backgroundColor: "#231f26",
-        height : "100 %"
+        height : "120%",
+        position : "absolute",
+        width : "100%"
     },
     Lightmode :{
         backgroundColor: "#ffffff",
@@ -44,15 +45,15 @@ const ScanStyle = StyleSheet.create({
     ContainingBox : {
         backgroundColor : "#151317",
         position :"absolute",
-        width : "100 %",
+        width : "100%",
         height : "100%",
-        marginTop: 180,
-        borderRadius : 50,
+        marginTop: 150,
+        borderRadius : 30, //Rounded Corners For Background
     },
     CameraStyle : {
         flex :1,
         width : "100%",
-        maxHeight:450
+        maxHeight : "100%" 
 
 
     }
